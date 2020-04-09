@@ -1,6 +1,7 @@
 import React from 'react';
-import { Alert } from 'react-native';
+import { Alert, Text } from 'react-native';
 import styled from 'styled-components/native';
+import { Link } from 'react-router-native';
 
 export const HomePage: React.FC<any> = () => {
   return (
@@ -12,7 +13,7 @@ export const HomePage: React.FC<any> = () => {
           <Game></Game>
         </Games>
         <GameActionsContainer>
-          <StartButtonContainer onPress={() => Alert.alert('Starting game...')}>
+          <StartButtonContainer to="/strictly-amigos">
             <ButtonText>New Game</ButtonText>
           </StartButtonContainer>
           <JoinButtonContainer onPress={() => Alert.alert('Joining game...')}>
@@ -58,7 +59,7 @@ const GameActionsContainer = styled.View`
   margin: 60px 0 20px;
 `;
 
-const ButtonContainer = styled.TouchableHighlight`
+const ButtonContainer = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
