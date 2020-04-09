@@ -15,7 +15,7 @@ This will return requested games, user profiles and permissions to the app.
 
 This outlies the general thinking of how the systems will interact with one another.
 
-![Overview](./socially-distant.png)
+![Overview](./docs/socially-distant.png)
 
 #### Games
 
