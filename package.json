@@ -11,6 +11,8 @@
     "nohoist": [
       "**/react-native",
       "**/react-native/**",
+      "**/styled-components",
+      "**/styled-components/**",
       "**/expo",
       "**/expo/**"
     ]

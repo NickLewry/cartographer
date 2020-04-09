@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cartographer",
-    "slug": "cartographer",
+    "name": "socially-distant",
+    "slug": "socially-distant",
     "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
