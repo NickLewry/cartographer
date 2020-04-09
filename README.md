@@ -2,6 +2,10 @@
 
 Fun app with assortment of group based games that can be done whilst video chatting. This will undoubtedly contian multiple games and thus should be acrchitected in a a way that adding or removing a game should be as pain and bug free as possible.
 
+#### Trello Board
+
+Socially Distant inflight work can be found on this [Trello Board](https://trello.com/b/jwICunoH/socially-distant).
+
 #### App
 
 This contains the mobile application code and is what the user interfaces with. I've gone for simplicity using expo. It will most likely spin up a login and selection page will serve as the content barrier and lock unlock content based on user purchases.
