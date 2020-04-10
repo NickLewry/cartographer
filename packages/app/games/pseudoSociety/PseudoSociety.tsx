@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/native';
 import { Link } from 'react-router-native';
 
-export const StrictlyAmigos: React.FC = () => {
+export const PseudoSociety: React.FC = () => {
   return (
     <Container>
       <Title>Strictly Amigos</Title>

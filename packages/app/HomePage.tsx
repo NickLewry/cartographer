@@ -1,5 +1,5 @@
 import React from 'react';
-import { Alert, Text } from 'react-native';
+import { Alert } from 'react-native';
 import styled from 'styled-components/native';
 import { Link } from 'react-router-native';
 
@@ -13,7 +13,7 @@ export const HomePage: React.FC<any> = () => {
           <Game></Game>
         </Games>
         <GameActionsContainer>
-          <StartButtonContainer to="/strictly-amigos">
+          <StartButtonContainer to="/pseudo-society">
             <ButtonText>New Game</ButtonText>
           </StartButtonContainer>
           <JoinButtonContainer onPress={() => Alert.alert('Joining game...')}>
