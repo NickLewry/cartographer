@@ -1,25 +1,43 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import { Link } from 'react-router-native';
+import { KeyboardAvoidingView, Keyboard } from 'react-native';
+
+import { Question } from '../Question';
 
 export const PseudoSociety: React.FC = () => {
   return (
-    <Container>
-      <Title>PseudoSociety</Title>
-      <Link to="/">
-        <LinkText>Home</LinkText>
-      </Link>
-    </Container>
+    <KeyBoardContainer behavior="padding">
+      <Container onPress={Keyboard.dismiss}>
+        <Inner>
+          <HeaderContainer>
+            <Title>PseudoSociety</Title>
+          </HeaderContainer>
+          <Question />
+        </Inner>
+      </Container>
+    </KeyBoardContainer>
   );
 };
 
-const Container = styled.View`
+const KeyBoardContainer = styled(KeyboardAvoidingView)`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 60px;
+`;
+
+const HeaderContainer = styled.View`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  flex: 0.1;
 `;
+
 const Title = styled.Text`
-  margin-bottom: 40px;
+  font-size: 24px;
 `;
-const LinkText = styled.Text``;
+
+const Container = styled.TouchableWithoutFeedback``;
+
+const Inner = styled.View``;
