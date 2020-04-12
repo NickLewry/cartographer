@@ -32,7 +32,7 @@ export const GameModal: React.FC<ModalProps> = ({
           Ipsum.
         </GameDescription>
         <ConfirmGame to="/pseudo-society" onPress={() => setSelected(false)}>
-          <ModalText>Hey</ModalText>
+          <ModalText>Play</ModalText>
         </ConfirmGame>
       </GameSelection>
     </Modal>

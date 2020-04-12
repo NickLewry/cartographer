@@ -33,6 +33,7 @@ export const Games: React.FC<Props> = () => {
     </Container>
   );
 };
+
 const Container = styled.View``;
 
 const GamesContainer = styled.View`

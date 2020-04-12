@@ -29,20 +29,22 @@ const Container = styled.View`
   flex: 1 0 31%;
   margin: 8px;
   height: 260px;
-  background-color: blue;
+  background: lightseagreen;
+  border-radius: 4px;
 `;
-const Title = styled.Text``;
+const Title = styled.Text`
+  color: #fff;
+`;
 
 const Anoth = styled.View`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: yellow;
+  background: #fff;
   height: 40px;
   width: 100px;
+  border-radius: 4px;
 `;
 
 const PlayGameContainer = styled.TouchableWithoutFeedback``;
-const PlayGame = styled.Text`
-  background: red;
-`;
+const PlayGame = styled.Text``;
