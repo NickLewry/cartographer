@@ -6,6 +6,12 @@ Fun app with assortment of group based games that can be done whilst video chatt
 
 Socially Distant inflight work can be found on this [Trello Board](https://trello.com/b/jwICunoH/socially-distant).
 
+#### Develop
+
+Have the Excpo app downloaded on you mobile phone.
+
+run `yarn expo` from the root.
+
 #### App
 
 This contains the mobile application code and is what the user interfaces with. I've gone for simplicity using expo. It will most likely spin up a login and selection page will serve as the content barrier and lock unlock content based on user purchases.
