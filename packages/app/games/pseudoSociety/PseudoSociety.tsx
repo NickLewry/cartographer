@@ -5,7 +5,7 @@ import { Link } from 'react-router-native';
 export const PseudoSociety: React.FC = () => {
   return (
     <Container>
-      <Title>Strictly Amigos</Title>
+      <Title>PseudoSociety</Title>
       <Link to="/">
         <LinkText>Home</LinkText>
       </Link>

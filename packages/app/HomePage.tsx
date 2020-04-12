@@ -13,7 +13,7 @@ export const HomePage: React.FC<any> = () => {
           <Game></Game>
         </Games>
         <GameActionsContainer>
-          <StartButtonContainer to="/pseudo-society">
+          <StartButtonContainer to="/games">
             <ButtonText>New Game</ButtonText>
           </StartButtonContainer>
           <JoinButtonContainer onPress={() => Alert.alert('Joining game...')}>
