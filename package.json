@@ -1,26 +1,15 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "app"
+  ],
   "scripts": {
-    "expo": "lerna --scope=app run start --stream --"
-  },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ],
-    "nohoist": [
-      "**/react-native",
-      "**/react-native/**",
-      "**/react-native-modal",
-      "**/react-native-modal/**",
-      "**/styled-components",
-      "**/styled-components/**",
-      "**/expo",
-      "**/expo/**"
-    ]
+    "expo": "yarn workspace app start",
+    "postinstall": "expo-yarn-workspaces postinstall"
   },
   "devDependencies": {
-    "lerna": "^3.20.2"
+    "expo-yarn-workspaces": "^1.2.1"
   },
   "dependencies": {
     "metro-config": "^0.59.0"
