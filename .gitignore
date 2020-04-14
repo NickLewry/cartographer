@@ -1,6 +1,8 @@
 node_modules/**/*
 yarn-error.log
 
+firebase/
+
 # app
 .expo/*
 npm-debug.*
